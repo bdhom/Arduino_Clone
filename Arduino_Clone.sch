@@ -138,4 +138,15 @@ U 6017416D
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L My_Library:DS1337_v2 U?
+U 1 1 6017BB22
+P 4875 1775
+F 0 "U?" H 4875 2406 50  0000 C CNN
+F 1 "DS1337_v2" H 4875 2315 50  0000 C CNN
+F 2 "" H 4925 1825 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1337-DS1337C.pdf" H 4925 1825 50  0001 C CNN
+	1    4875 1775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
