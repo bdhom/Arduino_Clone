@@ -121,12 +121,6 @@ F 12 "Active" H 6575 4125 60  0001 L CNN "Status"
 	1    6375 2925
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 875  6025 5450 1600
-U 6017416D
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
-$EndSheet
 $Comp
 L My_Library:DS1337_v2 U3
 U 1 1 6017BB22
@@ -171,4 +165,168 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2225 4175 50 
 	1    2225 4175
 	1    0    0    -1  
 $EndComp
+Text Label 725  6200 2    50   ~ 0
+MISO
+Wire Wire Line
+	725  6200 950  6200
+$Sheet
+S 950  6050 5450 1600
+U 6017416D
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
+F2 "MISO" O L 950 6200 50 
+F3 "SCK" B L 950 6400 50 
+F4 "RESET" I L 950 6625 50 
+F5 "Vcc" I L 950 6850 50 
+F6 "MOSI" I L 950 6300 50 
+F7 "GND" I L 950 6950 50 
+F8 "RX" I R 6400 6175 50 
+F9 "TX" O R 6400 6275 50 
+F10 "SDA" B R 6400 6500 50 
+F11 "D2" B R 6400 6750 50 
+F12 "D3" B R 6400 6825 50 
+F13 "D5" B R 6400 6975 50 
+F14 "D6" B R 6400 7050 50 
+F15 "D8" B R 6400 7200 50 
+F16 "D4" B R 6400 6900 50 
+F17 "D7" B R 6400 7125 50 
+$EndSheet
+Text Label 5875 2725 2    50   ~ 0
+MISO
+Text Label 725  6300 2    50   ~ 0
+MOSI
+Text Label 725  6400 2    50   ~ 0
+SCK
+Text Label 725  6625 2    50   ~ 0
+RESET
+Text Label 750  6850 2    50   ~ 0
+Vcc
+Wire Wire Line
+	725  6300 950  6300
+Wire Wire Line
+	725  6400 950  6400
+Wire Wire Line
+	725  6625 950  6625
+Wire Wire Line
+	750  6850 950  6850
+Wire Wire Line
+	750  6950 950  6950
+Text Label 5875 2625 2    50   ~ 0
+MOSI
+Text Label 5875 2825 2    50   ~ 0
+SCK
+Text Label 5875 3525 2    50   ~ 0
+RESET
+Wire Wire Line
+	6375 4425 6375 4575
+Wire Wire Line
+	6575 4575 6575 4425
+Wire Wire Line
+	6375 4575 6475 4575
+Wire Wire Line
+	6475 4425 6475 4575
+Connection ~ 6475 4575
+Wire Wire Line
+	6475 4575 6575 4575
+Wire Wire Line
+	6475 4575 6475 4700
+Wire Wire Line
+	6375 1325 6375 1175
+Wire Wire Line
+	6375 1175 6475 1175
+Wire Wire Line
+	6575 1175 6575 1325
+Wire Wire Line
+	6475 1325 6475 1175
+Connection ~ 6475 1175
+Wire Wire Line
+	6475 1175 6575 1175
+Wire Wire Line
+	6475 1175 6475 1050
+Text Label 6475 1050 2    50   ~ 0
+Vcc
+$Comp
+L power:GND #PWR?
+U 1 1 601A5F49
+P 6475 4700
+F 0 "#PWR?" H 6475 4450 50  0001 C CNN
+F 1 "GND" H 6480 4527 50  0000 C CNN
+F 2 "" H 6475 4700 50  0001 C CNN
+F 3 "" H 6475 4700 50  0001 C CNN
+	1    6475 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6950 750  7025
+$Comp
+L power:GND #PWR?
+U 1 1 601A6D6C
+P 750 7025
+F 0 "#PWR?" H 750 6775 50  0001 C CNN
+F 1 "GND" H 755 6852 50  0000 C CNN
+F 2 "" H 750 7025 50  0001 C CNN
+F 3 "" H 750 7025 50  0001 C CNN
+	1    750  7025
+	1    0    0    -1  
+$EndComp
+Text Label 6775 6175 0    50   ~ 0
+RX
+Text Label 6775 6275 0    50   ~ 0
+TX
+Text Label 6775 6500 0    50   ~ 0
+SDA
+Text Label 6775 6750 0    50   ~ 0
+D2
+Text Label 6775 6900 0    50   ~ 0
+D4
+Text Label 6775 6975 0    50   ~ 0
+D5
+Text Label 6775 7050 0    50   ~ 0
+D6
+Text Label 6775 7125 0    50   ~ 0
+D7
+Text Label 6775 7200 0    50   ~ 0
+D8
+Text Label 6775 6825 0    50   ~ 0
+D3
+Wire Wire Line
+	6400 6175 6775 6175
+Wire Wire Line
+	6400 6275 6775 6275
+Wire Wire Line
+	6400 6500 6775 6500
+Wire Wire Line
+	6775 6750 6400 6750
+Wire Wire Line
+	6400 6825 6775 6825
+Wire Wire Line
+	6775 6900 6400 6900
+Wire Wire Line
+	6775 6975 6400 6975
+Wire Wire Line
+	6775 7050 6400 7050
+Wire Wire Line
+	6400 7125 6775 7125
+Wire Wire Line
+	6775 7200 6400 7200
+Text Label 5875 1625 2    50   ~ 0
+D3
+Text Label 5875 1725 2    50   ~ 0
+D4
+Text Label 5875 2025 2    50   ~ 0
+D5
+Text Label 5875 2125 2    50   ~ 0
+D6
+Text Label 5875 2225 2    50   ~ 0
+D7
+Text Label 5875 2325 2    50   ~ 0
+D8
+Text Label 5875 3325 2    50   ~ 0
+SDA
+Text Label 5875 3625 2    50   ~ 0
+RX
+Text Label 5875 3725 2    50   ~ 0
+TX
+Text Label 5875 3825 2    50   ~ 0
+D2
 $EndSCHEMATC
