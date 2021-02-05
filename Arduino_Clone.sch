@@ -19,7 +19,7 @@ U 1 1 6016CB0C
 P 2575 5075
 F 0 "BT1" H 2683 5121 50  0000 L CNN
 F 1 "Battery 3V" H 2683 5030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2575 5135 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 2575 5135 50  0001 C CNN
 F 3 "~" V 2575 5135 50  0001 C CNN
 	1    2575 5075
 	1    0    0    -1  

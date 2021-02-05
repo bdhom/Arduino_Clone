@@ -19,7 +19,7 @@ U 1 1 6016CB0C
 P 2575 5075
 F 0 "BT1" H 2683 5121 50  0000 L CNN
 F 1 "Battery 3V" H 2683 5030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 2575 5135 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 2575 5135 50  0001 C CNN
 F 3 "~" V 2575 5135 50  0001 C CNN
 	1    2575 5075
 	1    0    0    -1  
@@ -639,17 +639,6 @@ Wire Wire Line
 	4225 3575 4225 3525
 Wire Wire Line
 	4225 3525 4300 3525
-$Comp
-L Switch:SW_Push_Dual_x2 SW1
-U 1 1 601BA9D5
-P 4975 3525
-F 0 "SW1" H 4975 3810 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 4975 3719 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 4975 3725 50  0001 C CNN
-F 3 "~" H 4975 3725 50  0001 C CNN
-	1    4975 3525
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	1125 2525 3400 2525
 Wire Notes Line
@@ -690,4 +679,15 @@ Text Notes 1750 4500 0    50   ~ 0
 S3 - Power
 Text Notes 4075 925  0    50   ~ 0
 S4 - ATMEGA328P
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 601F1724
+P 4975 3525
+F 0 "SW1" H 4975 3760 50  0000 C CNN
+F 1 "SW_SPST" H 4975 3669 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 4975 3525 50  0001 C CNN
+F 3 "~" H 4975 3525 50  0001 C CNN
+	1    4975 3525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
