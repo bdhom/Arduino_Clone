@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\bjdho\Documents\Education\Projects\KiCAD\Arduino_Clone\Arduino_Clone.sch)
-    (date "2/6/2021 9:14:36 AM")
+    (date "2/6/2021 11:23:56 AM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -136,7 +136,7 @@
       (tstamp 601BDDAF))
     (comp (ref SW1)
       (value SW_SPST)
-      (footprint Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin)
+      (footprint Footprints:SPST_SW)
       (datasheet ~)
       (libsource (lib Switch) (part SW_SPST) (description "Single Pole Single Throw (SPST) switch"))
       (sheetpath (names /) (tstamps /))
